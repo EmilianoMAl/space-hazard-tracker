@@ -1,0 +1,20 @@
+# Variables de entorno (nunca subir tu API key)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Airflow
+logs/
+airflow.db
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
