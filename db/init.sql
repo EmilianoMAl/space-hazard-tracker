@@ -2,6 +2,10 @@
 -- Space Hazard Tracker — Database Schema
 -- ============================================================
 
+-- Base de datos para Airflow
+CREATE USER airflow WITH PASSWORD 'airflow';
+CREATE DATABASE airflow OWNER airflow;
+
 -- Astronomy Picture of the Day
 CREATE TABLE IF NOT EXISTS apod (
     id          SERIAL PRIMARY KEY,
